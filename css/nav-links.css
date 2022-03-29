@@ -1,0 +1,17 @@
+.nav-links {
+  font-size: 30px;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 30px;
+  color: #f1396d;
+}
+
+.nav-links::before {
+  content: '';
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-color: #f1396d;
+  margin-right: 10px;
+  margin-bottom: 3.5px;
+}

@@ -1,0 +1,9 @@
+.main-header {
+  height: 80px;
+  width: 100vw;
+  background-color: #fcd9e5;
+  border: 3px solid #fbc5d8;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 20px;
+}

@@ -1,0 +1,14 @@
+@import url(css/nav-links.css);
+@import url(css/main-header.css);
+@import url(css/resets.css);
+@import url(css/main-icon.css);
+@import url(css/main-nav.css);
+@import url(css/main-section.css);
+@import url(css/main-tittle.css);
+@import url(css/game.css);
+@import url(css/switcher-ui.css);
+
+body {
+  background-color: #ffeaf2;
+  font-family: 'Fira Code', monospace;
+}

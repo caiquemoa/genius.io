@@ -1,0 +1,135 @@
+:root {
+  --yellow-pad-on: #ffff4d;
+  --green-pad-on: #4dff1f;
+  --red-pad-on: #ff2445;
+  --blue-pad-on: #0000ff;
+
+  --yellow-pad-off: rgb(161, 161, 23);
+  --green-pad-off: rgb(12, 121, 12);
+  --red-pad-off: rgb(134, 16, 16);
+  --blue-pad-off: rgb(20, 9, 116);
+}
+
+.game-board {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  position: relative;
+  margin: 50px;
+}
+
+.top-wrapper {
+  display: flex;
+}
+
+.color-pads {
+  width: 200px;
+  height: 200px;
+
+  cursor: pointer;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.yellow-side {
+  background-color: var(--yellow-pad-off);
+  border-top-left-radius: 200px;
+  border-top: 20px solid black;
+  border-right: 10px solid black;
+  border-left: 20px solid black;
+  border-bottom: 10px solid black;
+}
+
+.yellow-side.--active {
+  background-color: var(--yellow-pad-on);
+}
+
+.green-side {
+  background-color: var(--green-pad-off);
+  border-top-right-radius: 200px;
+  border-top: 20px solid black;
+  border-right: 20px solid black;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+}
+.green-side.--active {
+  background-color: var(--green-pad-on);
+}
+.red-side {
+  background-color: var(--red-pad-off);
+  border-bottom-left-radius: 200px;
+  border-right: 10px solid black;
+  border-left: 20px solid black;
+  border-top: 10px solid black;
+  border-bottom: 20px solid black;
+}
+
+.red-side.--active {
+  background-color: var(--red-pad-on);
+}
+
+.blue-side {
+  background-color: var(--blue-pad-off);
+  border-bottom-right-radius: 200px;
+  border-right: 20px solid black;
+  border-left: 10px solid black;
+  border-top: 10px solid black;
+  border-bottom: 20px solid black;
+}
+
+.blue-side.--active {
+  background-color: var(--blue-pad-on);
+}
+
+.game-ui {
+  height: 200px;
+  width: 200px;
+  border: 15px solid black;
+  background-color: #ffeaf2;
+  border-radius: 100%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#scoreCounter {
+  background: black;
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.game-ui input {
+  font-size: 26px;
+  color: white;
+  font-weight: 300;
+  background-color: black;
+}
+
+#playerTurn {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 7px;
+  color: #ffeaf2;
+}
+
+#gameTurn {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-left: 7px;
+  color: #ffeaf2;
+}

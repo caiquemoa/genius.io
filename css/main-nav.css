@@ -1,0 +1,6 @@
+.main-nav {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: flex-end;
+}

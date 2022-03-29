@@ -1,0 +1,12 @@
+.main-tittle {
+  font-size: 45px;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: 6px 6px black;
+  color: #fffd59;
+  text-align: center;
+}
+
+.main-tittle.-green {
+  color: #00e461;
+}

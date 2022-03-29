@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <span class="main-icon">Genius</span>
+      <nav class="main-nav">
+        <a class="nav-links" href="#genius4">Genius4</a>
+        <a class="nav-links" href="">Genius6</a>
+        <a class="nav-links" href="">Genius8</a>
+      </nav>
+      <!-- main-nav -->
+    </header>
+    <!-- main-header -->
+    <section class="main-section">
+      <h1 class="main-tittle">Genius</h1>
+      <p>
+        Genius era um brinquedo muito popular na década de 1980 distribuído pela
+        Brinquedos Estrela[1]. O brinquedo buscava estimular a memorização de
+        cores e sons. Com um formato semelhante a um OVNI, possuía botões
+        coloridos que emitiam sons harmônicos e se iluminavam em seqüência.
+        Cabia aos jogadores repetir o processo sem errar.
+      </p>
+      <img src="images/genius-game.webp" alt="" />
+    </section>
+    <section class="main-section">
+      <h2 id="demo" class="main-tittle -green">Genius4</h2>
+      <div class="game-board" id="genius4">
+        <div class="top-wrapper">
+          <div class="color-pads yellow-side"></div>
+          <div class="color-pads green-side"></div>
+        </div>
+        <!-- top-wrapper -->
+        <div class="top-wrapper">
+          <div class="color-pads red-side"></div>
+          <div class="color-pads blue-side"></div>
+        </div>
+        <!-- top-wrapper -->
+        <div class="game-ui">
+          <div id="scoreCounter">00</div>
+          <div class="top-wrapper">
+            <span id="playerTurn">
+              Player
+              <br />
+              Turn
+            </span>
+            <!-- playerTurn -->
+            <input type="button" value="Play" id="startGame" />
+            <span id="gameTurn">
+              Game
+              <br />
+              Turn
+            </span>
+            <!-- gameTurn -->
+          </div>
+          <!-- top-wrapper -->
+          <label class="switch">
+            <input type="checkbox" id="gameStatus" />
+            <span class="slider"></span>
+          </label>
+        </div>
+        <!-- game-ui -->
+      </div>
+      <!-- game-board -->
+    </section>
+    <!-- main-section -->
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+.main-icon {
+  font-family: 'Press Start 2P', cursive;
+  color: #fe4b74;
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  box-shadow: 6px 6px 5px #fe4b74;
+}

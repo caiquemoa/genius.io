@@ -1,0 +1,89 @@
+.counter {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  clip-path: polygon(
+    30% 0%,
+    70% 0%,
+    100% 30%,
+    100% 70%,
+    70% 100%,
+    30% 100%,
+    0% 70%,
+    0% 30%
+  );
+  background-color: black;
+  height: 150px;
+  width: 150px;
+}
+
+/* .horizontal-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: inherit;
+  height: fit-content;
+} */
+.left-side {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  height: 150px;
+  width: 80px;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.right-side {
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  height: 150px;
+  width: 80px;
+  background-color: green;
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+/* .vertical-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+  width: fit-content;
+} */
+.up-side {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0;
+  right: 0;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  height: 150px;
+  width: 80px;
+  background-color: red;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.down-side {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+  height: 150px;
+  width: 80px;
+  background-color: blue;
+  transform: rotate(270deg);
+  cursor: pointer;
+}
