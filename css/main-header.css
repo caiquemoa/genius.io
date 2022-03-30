@@ -1,9 +1,12 @@
 .main-header {
-  height: 80px;
+  height: fit-content;
   background-color: #fcd9e5;
   border: 3px solid #fbc5d8;
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
   align-items: center;
   justify-content: space-between;
   padding: 20px 20px;
+  box-shadow: 0 1px 3px #fbc5d8, 0 1px 2px #fbc5d8;
 }

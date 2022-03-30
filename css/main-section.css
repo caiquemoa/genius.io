@@ -2,12 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   border-bottom: 5px solid #fbc5d8;
+  width: 100vw;
 }
 
 .main-section > p {
   display: inline-block;
-  width: 1400px;
+  width: 80%;
   font-size: 30px;
   text-align: center;
 }

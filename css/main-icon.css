@@ -4,6 +4,7 @@
   display: inline-block;
   font-size: 40px;
   font-weight: bold;
-  box-shadow: 6px 6px 5px #fe4b74;
+  box-shadow: 5px 5px 7px #fe4b74, -5px -5px 7px #fe4b82;
+  text-shadow: 0 5px 4px black, 0 -5px 6px black;
   margin-right: 20px;
 }
